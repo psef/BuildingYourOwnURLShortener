@@ -25,7 +25,7 @@ try {
     header("Location: " . $url);
 }
 catch (\Exception $e) {
-print_r($e);
+    print_r($e);
     header("Location: error.html");
     exit;
 }
